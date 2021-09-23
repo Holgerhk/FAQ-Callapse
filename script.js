@@ -1,3 +1,8 @@
-// loop through icons // apply eventlisenter
-// select parantNode/Element and classList.toggle a class to the box
-// elect siblingNode/Element and classList.toggle a class to the p
+var icons = document.getElementsByClassName(".fa-angle-down");
+
+icons.forEach(i => {
+    i.addEventListener("click", () => {
+        i.parentElement.classList.toggle("big");
+    });
+});
+

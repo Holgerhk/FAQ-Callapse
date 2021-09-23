@@ -61,6 +61,10 @@ h3 {
     left: 15px;
 }
 
-.p.open {
+.open {
     display: block;
+}
+
+.box.big {
+    height: 150px;
 }
